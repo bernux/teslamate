@@ -63,7 +63,7 @@ elixir --version
   <summary>Postgres (v12+)</summary>
 
 ```bash
-pkg install postgressql(12|13)-server
+pkg install postgressql(12|13|14)-server postgresql(12|13|14)-contrib
 echo postgres_enable="yes" >> /etc/rc.conf
 ```
   
